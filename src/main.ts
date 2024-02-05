@@ -11,9 +11,9 @@ umi.use(keypairIdentity(keypair))
     .use(mplTokenMetadata())
 
 const metadata = {
-    name: "Solana Gold",
-    symbol: "GOLDSOL",
-    uri: "https://raw.githubusercontent.com/solana-developers/program-examples/new-examples/tokens/tokens/.assets/spl-token.json",
+    name: "Rick Rollz",
+    symbol: "rrollz",
+    uri: "https://gist.githubusercontent.com/mconstant/bb01f8d3b070e5c5508058aa618ca189/raw/f089aaab1b5a47b2e416413b5e0330a62a678d1b/spl-token.json",
 };
 
 const mint = generateSigner(umi);
